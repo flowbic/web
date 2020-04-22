@@ -103,13 +103,17 @@
                             &::before {
                                 opacity: 1;
                                 transform: scaleX(1);
+
                             }
                         }
 
                         &:hover {
                             color: #615CFD;
+
                         }
                     }
+
+
 
                     .submenu {
                         position: absolute;
