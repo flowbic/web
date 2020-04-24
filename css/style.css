@@ -1406,7 +1406,8 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-  ul li::after {
+  .navBar ul li::after {
+
     position: absolute;
     content: "";
     top: 65%;
@@ -1418,9 +1419,10 @@ h3 {
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  ul li:hover::after,
-  ul li.active::after {
+  .navBar ul li:hover::after,
+  .navBar ul li.active::after {
     transform: scaleX(1);
+
   }
 
 
@@ -1444,7 +1446,8 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-  ul li::after {
+  .navBar ul li::after {
+
     position: absolute;
     content: "";
     top: 65%;
@@ -1456,10 +1459,12 @@ h3 {
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  ul li:hover::after,
-  ul li.active::after {
+  .navBar ul li:hover::after,
+  .navBar ul li.active::after {
     transform: scaleX(1);
+
   }
+
 
 
   /* line 62, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
@@ -1496,7 +1501,8 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-  ul li::after {
+  .navBar ul li::after {
+
     position: absolute;
     content: "";
     top: 65%;
@@ -1508,10 +1514,12 @@ h3 {
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  ul li:hover::after,
-  ul li.active::after {
+  .navBar ul li:hover::after,
+  .navBar ul li.active::after {
     transform: scaleX(1);
+
   }
+
 
 
   /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
@@ -1524,7 +1532,8 @@ h3 {
 
 
 @media (min-width: 1200px) and (max-width: 4500px) {
-  ul li::after {
+  .navBar ul li::after {
+
     position: absolute;
     content: "";
     top: 65%;
@@ -1536,9 +1545,10 @@ h3 {
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  ul li:hover::after,
-  ul li.active::after {
+  .navBar ul li:hover::after,
+  .navBar ul li.active::after {
     transform: scaleX(1);
+
   }
 
 }
@@ -1547,7 +1557,8 @@ h3 {
 
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-  ul li::after {
+  .navBar ul li::after {
+
     position: absolute;
     content: "";
     top: 65%;
@@ -1559,10 +1570,12 @@ h3 {
     transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  ul li:hover::after,
-  ul li.active::after {
+  .navBar ul li:hover::after,
+  .navBar ul li.active::after {
     transform: scaleX(1);
+
   }
+
 
 
   /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
