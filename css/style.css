@@ -2173,6 +2173,11 @@ h3 {
   }
 }
 
+.footer_logo {
+  width: 131px;
+}
+
+
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer {
   background-repeat: no-repeat;
