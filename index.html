@@ -490,27 +490,27 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                        <input type="text" placeholder="Ditt namn">
+                                        <input id="username" type="text" placeholder="Ditt namn">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                        <input type="email" placeholder="Mejl">
+                                        <input id="userEmail"   type="email" placeholder="Mejl">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <input type="text" placeholder="Ämne">
+                                        <input id="emailSubject" type="text" placeholder="Ämne">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                        <textarea name="" id="" cols="30" placeholder="Medelande" rows="10"></textarea>
+                                        <textarea id="emailContent" cols="30" placeholder="Medelande" rows="10"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <button onclick="main()" class="boxed-btn3" type="submit">Skicka
+                                        <button onclick="sendMail()" class="boxed-btn3" type="submit">Skicka
                                             medelande</button>
                                     </div>
                                 </div>
