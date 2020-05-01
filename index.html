@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>flowbic</title>
-    <meta name="description" content="Digital Utveckling">
+    <meta name="description" content="Vi utvecklar digitala helhetslösningar">
     <meta name="keywords"
         content="HTML, CSS, JavaScript, Webbdesign, Hemsida, Webbsida, Webpage, Företag, Kalmar, Python, PHP, Java, Flutter, Dart, Web, Webb, Programmering, Digital, Byrå">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -151,7 +154,7 @@
                             </h3>
                             <p class="mid_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                 Tillit, lyhördhet och ett starkt gemensamt intresse är
-                                det som definierar Flowbic. Det har get oss kunskapen om varandras styrkor och
+                                det som definierar Flowbic. Det har gett oss kunskapen om varandras styrkor och
                                 svagheter. Vi vet vem som kan mest om
                                 problemet vi har framför oss. Stark gruppdynamik och
                                 nära kommunikation gör att vi kan växa tillsammans för varje individuell prestation.
@@ -489,27 +492,27 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                        <input type="text" placeholder="Ditt namn">
+                                        <input id="username" type="text" placeholder="Ditt namn">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                        <input type="email" placeholder="Mejl">
+                                        <input id="userEmail"   type="email" placeholder="Mejl">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <input type="text" placeholder="Ämne">
+                                        <input id="emailSubject" type="text" placeholder="Ämne">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                        <textarea name="" id="" cols="30" placeholder="Medelande" rows="10"></textarea>
+                                        <textarea id="emailContent" cols="30" placeholder="Medelande" rows="10"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <button onclick="main()" class="boxed-btn3" type="submit">Skicka
+                                        <button onclick="sendMail()" class="boxed-btn3" type="submit">Skicka
                                             medelande</button>
                                     </div>
                                 </div>
