@@ -1,20 +1,25 @@
 function sendMail() {
-  var username = document.getElementById('username').value
-  let userEmail = document.getElementById('userEmail').value
-  let emailSubject = document.getElementById('emailSubject').value
-  let emailContent = document.getElementById('emailContent').value
+  let name = document.getElementById('username').value
+  let email = document.getElementById('userEmail').value
+  let subject = document.getElementById('emailSubject').value
+  let message = document.getElementById('emailContent').value
 
-  postData('https://example.com/answer', {
-    username: username,
-    userEmail: userEmail,
-    emailSubject: emailSubject,
-    emailContent: emailContent,
+  postData('http://localhost:3000/mail', {
+    name,
+    email,
+    subject,
+    message,
   }).then((data) => {
-    console.log(data) // JSON data parsed by `response.json()` call
+    if (data.status < 400) {
+      console.log(data.json()) // JSON data parsed by `response.json()` call
+    } else {
+      // Throw error or something 
+    }
   })
 }
 
 async function postData(url = '', data = {}) {
+  console.log(data)
   // Default options are marked with *
   const response = await fetch(url, {
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -29,5 +34,5 @@ async function postData(url = '', data = {}) {
     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
     body: JSON.stringify(data), // body data type must match "Content-Type" header
   })
-  return response.json() // parses JSON response into native JavaScript objects
+  return response // parses JSON response into native JavaScript objects
 }
