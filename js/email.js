@@ -4,16 +4,25 @@ function sendMail() {
   let subject = document.getElementById('emailSubject').value
   let message = document.getElementById('emailContent').value
 
+  let pText = document.getElementById("contact-text")
+
   postData('http://localhost:3000/mail', {
     name,
     email,
     subject,
     message,
+    reciever: "flowbic"
   }).then((data) => {
     if (data.status < 400) {
+      pText.innerHTML = "Tack för ditt meddelande! Vi svarar så fort vi kan!";
       console.log(data.json()) // JSON data parsed by `response.json()` call
-    } else {
+    } else if (data.status < 500) {
+      pText.innerHTML = "Något gick fel. Är alla fält ifyllda?";
+      pText.style.color = "red"
       // Throw error or something 
+    } else {
+      pText.innerHTML = "Något blev knas på servern. Vi ska ge oss på att fixa felet. Sålänge kan du maila din förfrågan till: kontakt@flowbic.se";
+      pText.style.color = "red"
     }
   })
 }
