@@ -6,10 +6,9 @@ function sendMail() {
   let subject = document.getElementById('emailSubject').value
   let message = document.getElementById('emailContent').value
   let storeData = document.getElementById('dataStorageCheck').checked
-  console.log(storeData)
 
 
-  if (message, email, storeData) {
+  if (requirementsFilled(message, email, storeData)) {
     postData('http://localhost:3000/mail', {
       name,
       email,
@@ -55,4 +54,15 @@ async function postData(url = '', data = {}) {
     body: JSON.stringify(data), // body data type must match "Content-Type" header
   })
   return response // parses JSON response into native JavaScript objects
+}
+
+function requirementsFilled(message, email, storeData) {
+  if (message.length < 1) {
+    return false
+  }
+  if (!storeData) {
+    return false
+  }
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
 }
