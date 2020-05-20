@@ -18,6 +18,10 @@ body {
   font-size: xx-small;
 }
 
+.bg-dark-contact {
+  background: #1f1f1f;
+}
+
 /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
