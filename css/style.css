@@ -18,6 +18,10 @@ body {
   font-size: xx-small;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .bg-dark-contact {
   background: #1f1f1f;
 }
