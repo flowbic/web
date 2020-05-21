@@ -951,6 +951,11 @@ h3 {
     padding: 10px 10px;
     background: #1f1f1f;
   }
+
+  .mobile_images {
+    height: 40px;
+    background-color: #000;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
