@@ -6,7 +6,7 @@ var read_more_cookie_btn = document.getElementById("read_more_cookie_btn");
 
 ok_gdpr_btn.addEventListener("click", () => {
   modal.style.display = "none";
-  localStorage.setItem('cookieButton', JSON.stringify(true));
+  localStorage.setItem("cookieButton", JSON.stringify(true));
 });
 
 read_more_cookie_btn.addEventListener("click", () => {
@@ -17,12 +17,12 @@ read_more_cookie_btn.addEventListener("click", () => {
 Körs när sidan laddas, IF cookies visa inte popup else visa popup
 */
 window.onload = function (event) {
-  var cookieButton = localStorage.getItem('cookieButton');
-  console.log(cookieButton)
+  var cookieButton = localStorage.getItem("cookieButton");
+  console.log(cookieButton);
   if (cookieButton) {
     modal.style.display = "none";
   } else {
-    console.log('hej')
-    modal.style.display = ""
+    console.log("hej");
+    modal.style.display = "";
   }
 };
