@@ -2,7 +2,15 @@ var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 var ok_gdpr_btn = document.getElementById("ok_gdpr_button");
+var ok_btn_storage = document.getElementById("ok_gdpr_button_datastorage");
 var read_more_cookie_btn = document.getElementById("read_more_cookie_btn");
+
+if (ok_btn_storage) {
+  ok_btn_storage.addEventListener("click", () => {
+    localStorage.setItem("cookieButton", JSON.stringify(true));
+    window.location.replace("./");
+  });
+}
 
 ok_gdpr_btn.addEventListener("click", () => {
   modal.style.display = "none";
