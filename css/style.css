@@ -22,6 +22,13 @@ body {
   font-style: italic;
 }
 
+.modal {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
 .bg-dark-contact {
   background: #1f1f1f;
 }
@@ -979,6 +986,26 @@ h3 {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
+  }
+
+  .cookiesContainer {
+    margin-top: 80%;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 991px) {
+  .cookiesContainer {
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer_logo {
+    display: none;
+  }
+
+  .header-area {
+    display: none;
   }
 }
 
