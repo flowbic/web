@@ -478,6 +478,11 @@ h3 {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
+  margin: 7px;
+}
+
+.color-btn {
+  background: #689F38;
 }
 
 /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
