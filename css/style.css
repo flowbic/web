@@ -1016,6 +1016,12 @@ h3 {
   }
 }
 
+@media (min-width: 368px) and (max-width: 991px) {
+  body {
+    background: #1f1f1f;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
