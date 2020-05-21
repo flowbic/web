@@ -22,6 +22,7 @@ window.onload = function (event) {
   if (cookieButton) {
     modal.style.display = "none";
   } else {
-    modal.style.display = "visible"
+    console.log('hej')
+    modal.style.display = ""
   }
 };
