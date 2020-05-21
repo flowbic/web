@@ -1,28 +1,25 @@
-// var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal");
 
-// // Get the button that opens the modal
-// var btn = document.getElementById("myBtn");
+// Get the button that opens the modal
+var ok_gdpr_btn = document.getElementById("ok_gdpr_button");
+var read_more_cookie_btn = document.getElementById("read_more_cookie_btn");
 
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
+ok_gdpr_btn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
 
-// // When the user clicks the button, open the modal
-// // btn.onclick = function () {
-// //   modal.style.display = "block";
-// // };
+read_more_cookie_btn.addEventListener("click", () => {
+  window.location.replace("http://127.0.0.1:5500/datastorage.html");
+});
 
-// // // When the user clicks on <span> (x), close the modal
-// // span.onclick = function () {
-// //   modal.style.display = "none";
-// // };
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   modal.style.display = "block";
-// });
-
-// // window.onload = function (event) {
-// //   console.log(event);
-// //   if (event.target == modal) {
-// //     modal.style.display = "none";
-// //   }
-// // };
+/* 
+Körs när sidan laddas, IF cookies visa inte popup else visa popup
+*/
+window.onload = function (event) {
+  console.log(event);
+  //   if (COOKIE) {
+  //     modal.style.display = "none";
+  //   } else {
+  //  modal.style.display ="visible"
+  //      }
+};
