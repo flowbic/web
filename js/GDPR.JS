@@ -18,11 +18,9 @@ Körs när sidan laddas, IF cookies visa inte popup else visa popup
 */
 window.onload = function (event) {
   var cookieButton = localStorage.getItem("cookieButton");
-  console.log(cookieButton);
   if (cookieButton) {
     modal.style.display = "none";
   } else {
-    console.log("hej");
     modal.style.display = "";
   }
 };
