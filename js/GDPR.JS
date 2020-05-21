@@ -9,7 +9,7 @@ ok_gdpr_btn.addEventListener("click", () => {
 });
 
 read_more_cookie_btn.addEventListener("click", () => {
-  window.location.replace("https://flowbic.se/datastorage.html");
+  window.location.replace("/datastorage.html");
 });
 
 /* 
