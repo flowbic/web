@@ -1,8 +1,8 @@
 <svg id="https:_www.flaticon.com_free-icon_layers_149298" data-name="https://www.flaticon.com/free-icon/layers_149298" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.826" height="56.087" viewBox="0 0 57.826 56.087">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8521FF"/>
-      <stop offset="1" stop-color="#d465ef"/>
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
     </linearGradient>
   </defs>
   <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="1.052" cy="1.052" rx="1.052" ry="1.052" transform="translate(46.322 25.412)" fill="url(#linear-gradient)"/>

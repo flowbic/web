@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.267" height="56.087" viewBox="0 0 56.267 56.087">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#8521FF"/>
-      <stop offset="1" stop-color="#d465ef"/>
+          <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
     </linearGradient>
   </defs>
   <g id="https:_www.flaticon.com_free-icon_sketch_681662" data-name="https://www.flaticon.com/free-icon/sketch_681662" transform="translate(0)">
