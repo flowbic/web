@@ -993,6 +993,10 @@ h3 {
   }
 }
 
+.take_me_back_btn {
+  display: none;
+}
+
 @media (min-width: 368px) and (max-width: 991px) {
   .cookiesContainer {
     margin-top: 20%;
@@ -1000,6 +1004,9 @@ h3 {
     padding-right: 5%;
   }
 
+  .take_me_back_btn {
+    display: inline-flex;
+  }
   .footer_logo {
     display: none;
   }
