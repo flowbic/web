@@ -987,6 +987,26 @@ h3 {
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
+
+  .cookiesContainer {
+    margin-top: 80%;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 991px) {
+  .cookiesContainer {
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer_logo {
+    display: none;
+  }
+
+  .header-area {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
