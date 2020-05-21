@@ -44,7 +44,7 @@ body {
 }
 
 .bold {
-  color: #8521ff;
+  color: #000000;
 }
 
 /* line 16, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
@@ -397,7 +397,7 @@ h3 {
 /* line 275, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #8521ff;
+  background: #3e1472;
   border: 1px solid transparent;
 }
 
