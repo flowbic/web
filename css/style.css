@@ -1016,13 +1016,30 @@ h3 {
   }
 }
 
+@media (min-width: 158px) and (max-width: 991px) {
+  .cookiesContainer {
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-@media (min-width: 568px) and (max-width: 991px) {
-/* body{
-  background: #000;
-} */
+  .take_me_back_btn {
+    display: inline-flex;
+  }
+  .footer_logo {
+    display: none;
+  }
+
+  .header-area {
+    display: none;
+  }
 }
 
+@media (min-width: 468px) and (max-width: 991px) {
+  .gdprBackground {
+    background: #1f1f1f;
+  }
+}
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
