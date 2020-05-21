@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="css/style.css" />
   <meta property="og:image"
     content="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-
   <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   <!-- Favicon tags START -->
   <link rel="apple-touch-icon" sizes="57x57" href="/img/logo_ico/apple-icon-57x57.png" />
@@ -46,8 +45,8 @@
   <!-- Favicon tags END -->
 </head>
 
-<body>
-  <!--[if lte IE 9]>
+<body class="gdprBackground">
+    <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
@@ -67,11 +66,9 @@
                   <img class="logo-img" src="img/flowbic3.svg" alt="" />
                 </a>
               </div>
-            </div>
-            <div class="col-xl-8 col-lg-8">
-              <div class="navBar">
-                <div class="main-menu d-none d-lg-block text-center">
-                  <nav></nav>
+              <div class="col-lg-2 d-none d-lg-block">
+                <div class="log_chat_area d-flex align-items-end">
+                  <a href="index.html" class="say_hi">Ta mig tillbaka!</a>
                 </div>
               </div>
             </div>
@@ -106,17 +103,41 @@
                 hjälper oss att se hur vår sida används av våra besökare.
               </p>
             </div>
-          </div>
-          <div class="analytics_info mt-5">
-            <div class="section_title white_text">
-              <h3 class="wow fadeInUp text-light" data-wow-duration="1s" data-wow-delay=".4s">
-                Ta bort cookies
-              </h3>
-              <p class="mid_text wow fadeInUp text-light" data-wow-duration="1s" data-wow-delay=".5s">
-                För att ta bort cookies går du till inställningarna på din
-                webbläsare och väljer "ta bort cookies". Det exakta
-                tillvägagångssättet kan variera beroende på webbläsare.
-              </p>
+            <div class="analytics_info mt-5">
+              <div class="section_title white_text">
+                <h3
+                  class="wow fadeInUp text-light"
+                  data-wow-duration="1s"
+                  data-wow-delay=".4s"
+                >
+                  Ta bort cookies
+                </h3>
+                <p
+                  class="mid_text wow fadeInUp text-light"
+                  data-wow-duration="1s"
+                  data-wow-delay=".5s"
+                >
+                  För att ta bort cookies går du till inställningarna på din
+                  webbläsare och väljer "ta bort cookies". Det exakta
+                  tillvägagångssättet kan variera beroende på webbläsare.
+                </p>
+              </div>
+              <a
+                class="wow fadeInUp boxed-btn3 mt-5"
+                id="ok_gdpr_button"
+                href="index.html"
+                data-wow-duration="1s"
+                data-wow-delay=".2s"
+                >Ok</a
+              >
+              <a
+                class="wow fadeInUp ml-2 boxed-btn3 take_me_back_btn"
+                id="read_more_cookie_btn"
+                data-wow-duration="1s"
+                data-wow-delay=".2s"
+                href="index.html"
+                >Ta mig tillbaka</a
+              >
             </div>
             <a class="wow fadeInUp boxed-btn3 mt-5" id="ok_gdpr_button" href="index.html" data-wow-duration="1s"
               data-wow-delay=".2s">Ok</a>
