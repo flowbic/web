@@ -6,7 +6,7 @@ var read_more_cookie_btn = document.getElementById("read_more_cookie_btn");
 
 ok_gdpr_btn.addEventListener("click", () => {
   modal.style.display = "none";
-  localStorage.setItem('cookieButton', JSON.stringify(true));
+  localStorage.setItem("cookieButton", JSON.stringify(true));
 });
 
 read_more_cookie_btn.addEventListener("click", () => {
