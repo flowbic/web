@@ -1874,7 +1874,6 @@ h3 {
   top: 0;
   height: 100%;
   width: 50%;
-  z-index: 9;
   background-size: cover;
   position: absolute;
   background-size: cover;
@@ -4134,15 +4133,16 @@ h3 {
   border-bottom: none;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #000;
 }
 
 /* line 112, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header .close {
-  position: absolute;
+  position: relative;
   right: -15px;
   top: -15px;
   padding: 0px;
-  color: #fff;
+  color: #000000;
   opacity: 1;
   cursor: pointer;
 }
