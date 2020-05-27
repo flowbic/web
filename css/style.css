@@ -1276,6 +1276,12 @@ h3 {
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .slider_bg_1 {
+    background-attachment: scroll;
+  }
+}
+
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_2 {
   background-image: url(../img/banner/banner2.png);
@@ -2749,6 +2755,13 @@ h3 {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
   .testimonial_area {
     padding: 50px 0;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .testimonial_area {
+    background-attachment: scroll;
+    min-height: 220px;
   }
 }
 
