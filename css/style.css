@@ -1086,7 +1086,9 @@ h3 {
 .responsive {
   width: 100%;
   height: auto;
+  max-height: 900px;
 }
+
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
@@ -1267,6 +1269,11 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/background_alt.jpeg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -1879,7 +1886,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: "";
-  background-image: url(../img/about/about.png);
+  background-image: url(../img/team/group_one.jpeg);
   left: 0;
   top: 0;
   height: 100%;
@@ -2716,11 +2723,13 @@ h3 {
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 160px 0;
-  background-image: url(../img/testmonial/banner.png);
+  background-image: url(../img/gallery/flowbic.jpeg);
   position: relative;
   z-index: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
 }
 
 /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
@@ -2733,7 +2742,7 @@ h3 {
   z-index: -1;
   content: "";
   background: #1f1f1f;
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 @media (max-width: 767px) {
@@ -2747,7 +2756,7 @@ h3 {
 .testimonial_area .single_testmonial p {
   color: #fff;
   font-weight: 400;
-  font-size: 24px;
+  font-size: small;
   line-height: 32px;
   margin: 35px 0 25px 0;
 }
@@ -2788,10 +2797,16 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+.citat {
+  display: flex;
+  justify-content: end;
+}
+
 /* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-item img {
   display: inline-block;
   width: auto;
+  text-align: end;
 }
 
 /* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
@@ -3590,16 +3605,16 @@ h3 {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  border: 1px solid #8521ff;
+  border: 1px solid #171717;
   display: inline-block;
-  background: #8521ff;
+  background: #111112;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb .team_hover .hover_inner ul li a:hover {
-  background: #8521ff;
-  border: 1px solid #8521ff;
-  color: #fff;
+  background: #eaeaeb;
+  border: 1px solid #0c0c0c;
+  color: rgb(19, 19, 19);
 }
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3743,7 +3758,7 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(../img/work/work.png);
+  background-image: url(../img/portfolio/group_2.jpeg);
   background-size: cover;
   background-position: center center;
 }
