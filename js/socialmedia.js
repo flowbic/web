@@ -17,7 +17,7 @@ let karlGithub = document.getElementById("karlGithub");
 
 let marcusLinkedIn = document.getElementById("marcusLinkedIn");
 let marcusGithub = document.getElementById("marcusGithub");
-let marcusInstagram = document.getElementById("marcusGithub");
+let marcusInstagram = document.getElementById("marcusInstagram");
 
 // facebook.addEventListener('click', () => {
 //   openInNewTab('URL')
