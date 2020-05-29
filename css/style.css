@@ -425,7 +425,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
-  color: #131313;
+  color: #bc1a1a;
   display: inline-block;
   padding: 14px 44px;
   font-family: "Muli", sans-serif;
@@ -459,7 +459,7 @@ h3 {
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #3c3b3c;
+  background: transparent;
   color: #fff;
   display: inline-block;
   padding: 12px 33px;
@@ -480,8 +480,18 @@ h3 {
   transition: 0.5s;
   cursor: pointer;
   margin: 7px;
+  border: 1px solid #989898;
 }
 
+.contact_button {
+  background: #000;
+}
+
+.contact_button:hover {
+  border: 1px solid #090909;
+  color: #000 !important;
+  background: #ffffff;
+}
 .color-btn {
   background: #689f38;
 }
@@ -490,9 +500,12 @@ h3 {
 .boxed-btn3:hover {
   border: 1px solid #eeedf0;
   color: #eeedf0 !important;
-  background: transparent;
+  background: #000000;
 }
 
+.contact_button:focus {
+  outline: none;
+}
 /* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn3:focus {
   outline: none;
@@ -2748,7 +2761,7 @@ h3 {
   z-index: -1;
   content: "";
   background: #1f1f1f;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 @media (max-width: 767px) {
@@ -3623,6 +3636,9 @@ h3 {
   background: #111112;
 }
 
+.joelIMG {
+  src: url("../img/team/joel.jpeg");
+}
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb .team_hover .hover_inner ul li a:hover {
   background: #eaeaeb;

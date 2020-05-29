@@ -1,14 +1,14 @@
 $(function () {
-  $('.toggle').on('click', function () {
-    if ($('.item').hasClass('active')) {
-      $('.item').removeClass('active')
-      $(this).find('a').html("<i class='fas fa-bars'></i>")
+  $(".toggle").on("click", function () {
+    if ($(".item").hasClass("active")) {
+      $(".item").removeClass("active");
+      $(this).find("a").html("<i class='fas fa-bars'></i>");
     } else {
-      $('.item').addClass('active')
-      $(this).find('a').html("<i class='fas fa-times'></i>")
+      $(".item").addClass("active");
+      $(this).find("a").html("<i class='fas fa-times'></i>");
     }
-  })
-})
+  });
+});
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -18,18 +18,18 @@ $('a[href*="#"]')
   .click(function (event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') ==
-        this.pathname.replace(/^\//, '') &&
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
-      var target = $(this.hash)
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
+      var target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
       // Does a scroll target exist?
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
-        event.preventDefault()
-        $('html, body').animate(
+        event.preventDefault();
+        $("html, body").animate(
           {
             scrollTop: target.offset().top,
           },
@@ -37,28 +37,28 @@ $('a[href*="#"]')
           function () {
             // Callback after animation
             // Must change focus!
-            var $target = $(target)
-            $target.focus()
-            if ($target.is(':focus')) {
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) {
               // Checking if the target was focused
-              return false
+              return false;
             } else {
-              $target.attr('tabindex', '-1') // Adding tabindex for elements not focusable
-              $target.focus() // Set focus again
+              $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
             }
           }
-        )
+        );
       }
     }
-  })
+  });
 
-var underlineMenuItems = document.querySelectorAll('ul li')
-underlineMenuItems[0].classList.add('active')
+var underlineMenuItems = document.querySelectorAll("ul li");
+underlineMenuItems[0].classList.add("active");
 underlineMenuItems.forEach(function (item) {
-  item.addEventListener('click', function () {
+  item.addEventListener("click", function () {
     underlineMenuItems.forEach(function (item) {
-      return item.classList.remove('active')
-    })
-    item.classList.add('active')
-  })
-})
+      return item.classList.remove("active");
+    });
+    item.classList.add("active");
+  });
+});
