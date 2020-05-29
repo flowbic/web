@@ -17,6 +17,7 @@ let karlGithub = document.getElementById("karlGithub");
 
 let marcusLinkedIn = document.getElementById("marcusLinkedIn");
 let marcusGithub = document.getElementById("marcusGithub");
+let marcusInstagram = document.getElementById("marcusGithub");
 
 // facebook.addEventListener('click', () => {
 //   openInNewTab('URL')
@@ -69,6 +70,10 @@ marcusLinkedIn.addEventListener("click", () => {
 
 marcusGithub.addEventListener("click", () => {
   openInNewTab("https://github.com/mckhaannn");
+});
+
+marcusInstagram.addEventListener("click", () => {
+  openInNewTab("https://www.instagram.com/marcusthuressonn/");
 });
 
 const openInNewTab = (url) => {
