@@ -2749,6 +2749,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 480px;
 }
 
 /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
