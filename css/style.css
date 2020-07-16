@@ -25,6 +25,10 @@ body {
   font-style: italic;
 }
 
+#myModal {
+  z-index: 5;
+}
+
 .modal {
   position: fixed;
   bottom: 0;
@@ -32,6 +36,7 @@ body {
   align-items: flex-end;
   z-index: auto;
 }
+
 
 .ct-page_title {
   color: rgb(0, 0, 0);
@@ -2951,6 +2956,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area {
+  z-index: 1;
   padding-top: 155px;
   padding-bottom: 130px;
 }

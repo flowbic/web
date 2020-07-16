@@ -14,6 +14,7 @@ let davidLinkedIn = document.getElementById("davidLinkedIn");
 let davidGithub = document.getElementById("davidGithub");
 
 let karlGithub = document.getElementById("karlGithub");
+let karlLinkedIn = document.getElementById("karlLinkedIn");
 
 let marcusLinkedIn = document.getElementById("marcusLinkedIn");
 let marcusGithub = document.getElementById("marcusGithub");
@@ -63,6 +64,11 @@ davidGithub.addEventListener("click", () => {
 karlGithub.addEventListener("click", () => {
   openInNewTab("https://github.com/ke222pf");
 });
+
+karlLinkedIn.addEventListener("click", () => {
+  openInNewTab("https://www.linkedin.com/in/karl-erel%C3%B6f-5b78b21a8/");
+});
+
 
 marcusLinkedIn.addEventListener("click", () => {
   openInNewTab("https://www.linkedin.com/in/marcus-thuresson-b6b59719a/");
