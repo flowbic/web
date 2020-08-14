@@ -34,21 +34,26 @@ async function postData(url = '', data = {}) {
 
 
 function sendMolnyForm() {
-  var name = document.getElementById('username').value
+  let name = document.getElementById('username').value
   let email = document.getElementById('userEmail').value
   let message = document.getElementById('emailContent').value
   let phone = document.getElementById('phoneNumber').value
-  fetch('https://forms.molny.se/post/9SENCt', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      name, // required
-      email, // required
-      message, // required
-      phone, // you can add as many more fields as you want
-    }),
-  })
+
+  console.log(name)
+  console.log(email)
+  console.log(message)
+  console.log(phone)
+  // fetch('https://forms.molny.se/post/9SENCt', {
+  //   method: 'POST',
+  //   headers: {
+  //     Accept: 'application/json',
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify({
+  //     name, // required
+  //     email, // required
+  //     message, // required
+  //     phone, // you can add as many more fields as you want
+  //   }),
+  // })
 }
