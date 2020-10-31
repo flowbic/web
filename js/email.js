@@ -56,12 +56,13 @@ function sendMolnyForm() {
 
 // Not in use. Used for own server
 function sendMail() {
+  const { pText, name, email, message, phone, storeData } = getElements()
   if (requirementsFilled(message, email, storeData)) {
-    postData('http://localhost:3000/mail', {
+    postData('https://flowbicapi.herokuapp.com/mail', {
       name,
       email,
-      subject,
       message,
+      phone,
       reciever: "flowbic",
       storeData
     }).then((data) => {
