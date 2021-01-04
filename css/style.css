@@ -80,7 +80,7 @@ body {
 
 section.clients-home .clients-logos .client-logos-repeater {
   height: 200px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 section.clients-home .clients-logos .client-logos-repeater:hover {
   background-color: #ebebeb;
@@ -92,6 +92,17 @@ section.clients-home .clients-logos .client-logos-repeater img {
   margin: auto;
   left: 0;
   right: 0;
+}
+
+section.clients-home .clients-logos .client-logos-repeater-text {
+  height: 200px;
+  /* cursor: pointer; */
+}
+section.clients-home .clients-logos .client-logos-repeater-text:hover {
+  background-color: #ebebeb;
+}
+section.clients-home .clients-logos .client-logos-repeater-text img {
+  margin: auto;
 }
 
 
@@ -3129,6 +3140,8 @@ h3 {
   }
 }
 
+
+
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area.dec_margin {
   margin-top: 0;
@@ -3145,9 +3158,19 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
+
+
   .portfolio_image_area.dec_margin {
     padding: 70px 0;
   }
+
+  .portfolio_image_area{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -3166,6 +3189,9 @@ h3 {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+/* .portfolio_image_area .single_Portfolio img {
+  max-width: 400px;
+} */
 
 /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_thumb {
