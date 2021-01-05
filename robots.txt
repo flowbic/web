@@ -1,14 +1,4 @@
 User-agent: *
-Disallow: /startUp Doc/
-Disallow: /.gitignore/
-Disallow: /about.html
-Disallow: /blog.html
-Disallow: /contact_process.php
-Disallow: /contact.html
-Disallow: /datastorage.html
-Disallow: /elements.html
-Disallow: /main.html
-Disallow: /portfolio.html
-Disallow: /portfolio_details.html
-Disallow: /service.html
-Disallow: /single-blog.html
+Disallow: /.gitignore
+Disallow: /package-lock.json
+Disallow: /package.json
