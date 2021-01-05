@@ -80,10 +80,12 @@ body {
 
 section.clients-home .clients-logos .client-logos-repeater {
   height: 200px;
+  transition: 0.3s;
   /* cursor: pointer; */
 }
 section.clients-home .clients-logos .client-logos-repeater:hover {
   background-color: #ebebeb;
+
 }
 section.clients-home .clients-logos .client-logos-repeater img {
   position: absolute;
@@ -96,6 +98,7 @@ section.clients-home .clients-logos .client-logos-repeater img {
 
 section.clients-home .clients-logos .client-logos-repeater-text {
   height: 200px;
+  transition: 0.3s;
   /* cursor: pointer; */
 }
 section.clients-home .clients-logos .client-logos-repeater-text:hover {
