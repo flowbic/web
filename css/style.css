@@ -1980,7 +1980,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: "";
-  background-image: url(../img/team/group_one.jpeg);
+  background-image: url(../img/team/group_one.webp);
   left: 0;
   top: 0;
   height: 100%;
@@ -2817,7 +2817,7 @@ h3 {
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 160px 0;
-  background-image: url(../img/gallery/flowbic.jpeg);
+  background-image: url(../img/team/flowbic.webp);
   position: relative;
   z-index: 0;
   background-attachment: fixed;
@@ -3879,7 +3879,7 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(../img/portfolio/group_2.jpeg);
+  background-image: url(../img/team/group_2.webp);
   background-size: cover;
   background-position: center center;
 }
