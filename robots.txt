@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /.gitignore
 Disallow: /package-lock.json
 Disallow: /package.json
+Disallow: /datastorage.html
