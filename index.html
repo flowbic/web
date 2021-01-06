@@ -7,19 +7,16 @@
     <title>flowbic</title>
     <meta name="description" content="Vi utvecklar digitala helhetslösningar">
     <meta name="keywords"
-        content="HTML, CSS, JavaScript, Webbdesign, Hemsida, Webbsida, Webpage, Företag, Kalmar, Python, PHP, Java, Flutter, Dart, Web, Webb, Programmering, Digital, Byrå">
+        content="HTML, CSS, JavaScript, Webbdesign, Hemsida, Webbsida, Webpage, Företag, Kalmar, Python, Java, Flutter, React, React Native, Node.js, Dart, Web, Webb, Programmering, Digital, Byrå">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preload" href="css/font-awesome.min.css" as="style">
+    <link rel="preload" href="css/animate.min.css" as="style">
+    <link rel="preload" href="fonts/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <meta property="og:image"
         content="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
@@ -70,7 +67,8 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="#home">
-                                    <img class="logo-img mt-1 py-1" src="img/portfolio/Resurs 3.svg" alt="">
+                                    <img class="logo-img mt-1 py-1" src="img/portfolio/Resurs 3.svg"
+                                        alt="Flowbic logotyp">
                                 </a>
                             </div>
                         </div>
@@ -82,7 +80,7 @@
                                             <li><a class="active active" href="#home">Hem</a></li>
                                             <li><a href="#services">Tjänster</a></li>
                                             <li><a href="#about">Om oss</a></li>
-                                            <li><a href="#portfolio">Portfolio</a></li>
+                                            <li><a href="#portfolio">Samarbeten</a></li>
                                             <li><a href="#team">Teamet</a></li>
                                         </ul>
                                     </nav>
@@ -144,7 +142,7 @@
                     <div class="single_service  text-center wow fadeInLeft" data-wow-duration="1.2s"
                         data-wow-delay=".4s">
                         <div class="icon">
-                            <img src="img/svg_icon/1.svg" alt="">
+                            <img src="img/svg_icon/1.svg" alt="Icon med platta kvadratiska lager">
                         </div>
                         <h3>Webbappar</h3>
                         <p>Med webbläsaren som verktyg bygger vi dynamiska program för många plattformar i ett system
@@ -154,7 +152,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                         <div class="icon">
-                            <img src="img/svg_icon/2.svg" alt="">
+                            <img src="img/svg_icon/2.svg" alt="Icon med penna papper och linjal">
                         </div>
                         <h3>Webbsidor</h3>
                         <p>Efter er vision och grafiska profil skapar vi er digitala presentation mot omvärlden</p>
@@ -164,7 +162,7 @@
                     <div class="single_service text-center wow fadeInRight" data-wow-duration="1.2s"
                         data-wow-delay=".4s">
                         <div class="icon">
-                            <img src="img/svg_icon/3.svg" alt="">
+                            <img src="img/svg_icon/3.svg" alt="Icon med 3D kub">
                         </div>
                         <h3>Mobilappar</h3>
                         <p>Med direkt tillgång till telefonens insida skapar vi responsiva
@@ -177,9 +175,8 @@
                         <div class="icon">
                             <img src="img/svg_icon/4.svg" alt="">
                         </div>
-                        <h3>API Integration</h3>
-                        <p>Med direkt tillgång till telefonens insida skapar vi responsiva
-                            appar för både Android och iPhone</p>
+                        <h3>Webb API</h3>
+                        <p>Behöver du ansluta flera applikationer, till exempel en webbapplikation och en mobilapp till samma system och samtidigt förenkla framtida utbyggnader är ett REST API en perfekt lösning</p>
                     </div>
                 </div> -->
             </div>
@@ -223,7 +220,7 @@
                     <div class="section_title text-center mb-90">
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Samarbeten</h3>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Några av våra
-                            nubarande samarbetspartners</p>
+                            nuvarande samarbetspartners</p>
                     </div>
                 </div>
             </div>
@@ -233,7 +230,7 @@
                     <div class="clients-logos align-items-center">
                         <div class="single_Portfolio wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                             <a href="https://edaitech.com/" target="_blank" class="Zeina">
-                                <img src="./img/edaider-logo_new.svg" width="100%">
+                                <img src="./img/edaider-logo_new.svg" width="100%" alt="Logotyp till EdAider">
                             </a>
                         </div>
                     </div>
@@ -267,7 +264,7 @@
                 <div class="col-lg-5 mt-4">
                     <div class="single_Portfolio wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                         <a href="https://www.youtube.com/c/UrbanTVse/featured" target="_blank" class="Zeina">
-                            <img src="./img/urban_tv_croped.png" width="100%" alt="">
+                            <img src="./img/urban_tv_croped.png" width="100%" alt="Logotyp för Urban TV">
                         </a>
                     </div>
                 </div>
@@ -277,7 +274,7 @@
                 <div class="col-lg-5 mt-2">
                     <div class="single_Portfolio wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                         <a href="https://www.bockaraentreprenad.se/" target="_blank" class="Zeina"><img
-                                src="./img/svg_icon/behab.svg" width="100%">
+                                src="./img/svg_icon/behab.svg" width="100%" alt="Logo för BEHAB">
                         </a>
                     </div>
                 </div>
@@ -311,7 +308,7 @@
                 <div class="col-lg-5 mt-4">
                     <div class="single_Portfolio wow fadeInRight ct-aside" data-wow-duration="1s" data-wow-delay=".3s">
                         <!-- <a href="https://www.startmotor.se/" target="_blank" class="Zeina"> -->
-                        <img src="./img/logo-blue1.png" width="100%" alt="">
+                        <img src="./img/logo-blue1.png" width="100%" alt="Logotyp för Start och Generator-specialisten">
                         <!-- </a> -->
                     </div>
                     <!-- <div class="single_Portfolio wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
@@ -349,7 +346,7 @@
                                         <div class="row">
                                             <div class="col-md-6 client-logos-repeater-text">
                                                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                                                    width="200px" alt="Logotyp för ramverket React">
+                                                    width="200px" alt="Logotyp för ramverket React och React Native">
                                                 <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                                     React / React Native </p>
                                             </div>
@@ -461,7 +458,7 @@
                 <div class="col-lg-2 col-md-6 text-dark">
                     <div class="single_team wow fadeInUp text-dark" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="team_thumb">
-                            <img src="img/team/joel.jpeg" alt="">
+                            <img src="img/team/joel.webp" alt="Joel Carlsson">
                             <div class="team_hover">
                                 <div class="hover_inner text-center">
                                     <ul>
@@ -480,7 +477,7 @@
                 <div class="col-lg-2 col-md-6">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="team_thumb">
-                            <img src="img/team/david.jpeg" alt="">
+                            <img src="img/team/david.webp" alt="David Sturesson">
                             <div class="team_hover">
                                 <div class="hover_inner text-center">
                                     <ul>
@@ -499,7 +496,7 @@
                 <div class="col-lg-2 col-md-6">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
                         <div class="team_thumb">
-                            <img src="img/team/carl.jpeg" alt="">
+                            <img src="img/team/carl.webp" alt="Carl Ejnarsson">
                             <div class="team_hover">
                                 <div class="hover_inner text-center">
                                     <ul>
@@ -518,7 +515,7 @@
                 <div class="col-lg-2 col-md-6">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="team_thumb">
-                            <img src="img/team/karl.jpeg" alt="">
+                            <img src="img/team/karl.webp" alt="Karl Erelöf">
                             <div class="team_hover">
                                 <div class="hover_inner text-center">
                                     <ul>
@@ -539,7 +536,7 @@
                 <div class="col-lg-2 col-md-6">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
                         <div class="team_thumb">
-                            <img src="img/team/marcus_ute.jpg" alt="">
+                            <img src="img/team/marcus.webp" alt="Marcus Thuresson">
                             <div class="team_hover">
                                 <div class="hover_inner text-center">
                                     <ul>
@@ -565,7 +562,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
+                    <div class="testmonial_active">
                         <div class="single_carousel">
 
                         </div>
@@ -707,7 +704,7 @@
                                         Oss</a></li>
 
                                 <li><a href="#portfolio" class="wow fadeInDown" data-wow-duration="1s"
-                                        data-wow-delay=".6s" href="#">Portfolio</a></li>
+                                        data-wow-delay=".6s" href="#">Samarbeten</a></li>
                                 <li><a href="#team" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s"
                                         href="#">Teamet</a></li>
                                 <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s"
@@ -775,9 +772,7 @@
 
 
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
@@ -792,7 +787,6 @@
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
     <script src="js/GDPR.JS"></script>
 
 
@@ -802,8 +796,8 @@
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/email.js"></script>
+    <!-- <script src="js/mail-script.js"></script>
+    <script src="js/email.js"></script> -->
     <script src="js/socialmedia.js"></script>
     <script src="js/email.js"></script>
 
